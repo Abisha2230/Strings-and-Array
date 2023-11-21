@@ -1,0 +1,83 @@
+h1 {
+    font-size: 3rem;
+    background-color: black;
+    color: whitesmoke;
+    padding: 10px;
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+@keyframes example {
+    0% {
+        background-color: aqua;
+    }
+
+    10% {
+        background-color: brown;
+    }
+
+    20% {
+        background-color: magenta;
+    }
+
+    30% {
+        background-color: yellowgreen;
+    }
+
+    40% {
+        background-color: violet;
+    }
+
+    50% {
+        background-color: teal;
+    }
+
+    60% {
+        background-color: silver;
+    }
+
+    70% {
+        background-color: saddlebrown;
+    }
+
+    80% {
+        background-color: cyan;
+    }
+
+    90% {
+        background-color: rebeccapurple;
+    }
+
+    100% {
+        background-color: orangered;
+    }
+
+}
+
+p {
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: underline;
+    color: deeppink;
+    letter-spacing: 1px;
+}
+
+h2 {
+    color: black;
+    padding: 10px;
+    flex-direction: row;
+}
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    h2 {
+        padding: 5px;
+    }
+}
